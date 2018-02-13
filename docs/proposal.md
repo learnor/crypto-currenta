@@ -5,7 +5,8 @@
 ---
 
 Crypto-currenta is a data visualizaion project for crypto currency market. User can inspect the market change through interactive and beautiful charts.
-Crypto-currenta will be reading from csv file as data source. User should be able to check the market change by year, month, week and day.
+Crypto-currenta will be reading from csv/JSON file as data source. User should be able to check the exchange
+volume in certain market(eg. Coinbase) by month, week and day.
 
 
 ## Technologies
@@ -25,15 +26,15 @@ File structure:
 * lib/
  * entry.js: combined all different charts
  * time.js: draw yearly / monthly / weekly / daily market high, low price.
- * country.js: draw market share change in different countries at different time.
- * exchange.js (bonus): draw registered user accounts change in major crypto currency exhcanges by time.
+ * market.js: draw market share change in different countries at different time.
+ * exchange.js (bonus): draw registered user accounts change in major crypto currency exchanges by time.
 * application.css
 * index.html
 
 ## MVP
 ---
-- [ ] User will be able to change different views for crypto-currency market caps.
-- [ ] User can check major countries' market share change at different time.
+- [ ] User will be able to check trading volume in one exchange daily for 30 days.
+- [ ] User can check major exchange's market share change at different time.
 - [ ] User can switch between different major crypto currencies.
 
 ## Wireframe
