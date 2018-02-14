@@ -1,0 +1,31 @@
+{
+  "name": "crypto-currenta",
+  "version": "1.0.0",
+  "description": "***",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learnor/crypto-currenta.git"
+  },
+  "keywords": [],
+  "author": "zion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learnor/crypto-currenta/issues"
+  },
+  "homepage": "https://github.com/learnor/crypto-currenta#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {}
+}
