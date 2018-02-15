@@ -21,6 +21,6 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    extentions: ['.js','*']
+    extensions: ['.js','*']
   },
 };
